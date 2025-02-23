@@ -7,14 +7,13 @@
 
 body{
     margin: 0px auto;
+    background-color: #f3f3f3;
 }
 
 #container{
     width: 1160px;
     margin: auto;
     background-color: #ffffff;
-    border-left: 700px solid #f3f3f3;
-    border-right: 700px solid #f3f3f3;
 }
 
 header{
@@ -62,4 +61,8 @@ ul{
     grid-template-columns: repeat(2, 120px);
     gap: 10px;
 
+}
+
+i{
+    margin-right: 10px;
 }
