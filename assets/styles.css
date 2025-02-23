@@ -20,7 +20,6 @@ body{
 /*container du main*/
 #main__container{
     display: flex;
-    flex-direction: column;
     width: 100%;
 }
 
@@ -39,7 +38,7 @@ img{
     border-radius: 50%;
     border: 5px solid #ffffff;
     margin-top: 40px;
-    margin-left: 100px;
+    margin-left: 60px;
 }
 
 #picture{
@@ -49,7 +48,7 @@ img{
 }
 
 #header__title{
-    width: 810px;
+    width: 760px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -60,15 +59,13 @@ a{
     text-decoration: none;
     color: #ffffff;
 }
-
-ul{
-    text-align: left;
+#contact{
     list-style: none;
+    text-align: left;
     display: grid;
     grid-template-columns: repeat(2, 120px);
     gap: 10px;
     padding-top: 10px
-
 }
 
 i{
@@ -84,7 +81,7 @@ h2{
     padding-top: 10px;
 }
 
-h1, h2{
+h1, h2, h3{
     font-family: "Lato", sans-serif;
     margin: 0%;
 }
@@ -92,12 +89,17 @@ h1, h2{
 /*mise en page du mainsection*/
 
 #main__section{
-    width: 75%;
-    margin: 50px;
+    width: 60%;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    margin-right: 50px;
+    margin-left: 50px;
 }
 
 h3{
     color: #17abb3 ;
+    padding-top: 20px;
+    font-size: larger;
 }
 
 #profile{
@@ -128,10 +130,47 @@ td{
     padding-bottom: 5px;
 }
 
-hr{
-    margin-top: -5px;
-}
-
 #last__table{
     padding-bottom: 70px;
 }
+
+/* mise en page du skillsection*/
+
+#skillsection__container{
+    background-color: #e3e3e3;
+    width: 360px;
+}
+
+#skillsection{
+    width: 250px;
+    margin-top: 30px; 
+    margin-left: 50px;
+}
+
+.stars{
+    color: #17abb3;
+    font-size: small;
+    text-align: right;
+    word-spacing: -40px;
+    
+}
+
+th{
+    text-align: left;
+}
+
+.lang{
+    text-align: right;
+}
+
+.about__me{
+    list-style: square ;
+    
+}
+
+ul li::marker{
+    color: #17abb3;
+    font-size: x-large;
+
+}
+
