@@ -24,7 +24,7 @@ body{
 }
 
 /* mise en page du header */
-header{
+header, .footer{
     display: flex;
     justify-content: center;
     background-color: #17abb3;
@@ -38,17 +38,17 @@ img{
     border-radius: 50%;
     border: 5px solid #ffffff;
     margin-top: 40px;
-    margin-left: 60px;
+    margin-left: 100px;
 }
 
 #picture{
-    width: 350px;
+    width: 360px;
     height: 230px;
     
 }
 
 #header__title{
-    width: 760px;
+    width: 800px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -142,7 +142,7 @@ td{
 }
 
 #skillsection{
-    width: 250px;
+    width: 260px;
     margin-top: 30px; 
     margin-left: 50px;
 }
@@ -174,3 +174,15 @@ ul li::marker{
 
 }
 
+/* mise en page du footer */
+
+.footer{
+    padding-top: 25px;
+    gap: 10px;
+    font-size: larger;
+}
+
+#maj{
+    margin-top: -25px;
+    margin-bottom: 15px;
+}
