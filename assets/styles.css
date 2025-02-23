@@ -10,10 +10,18 @@ body{
     background-color: #f3f3f3;
 }
 
+/*container du body*/
 #container{
     width: 1160px;
     margin: auto;
     background-color: #ffffff;
+}
+
+/*container du main*/
+#main__container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
 }
 
 /* mise en page du header */
