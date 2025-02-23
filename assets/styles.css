@@ -60,17 +60,14 @@ a{
     text-decoration: none;
     color: #ffffff;
 }
-
-ul{
-    text-align: left;
+#contact{
     list-style: none;
+    text-align: left;
     display: grid;
     grid-template-columns: repeat(2, 120px);
     gap: 10px;
     padding-top: 10px
-
 }
-
 i{
     margin-right: 10px;
 }
@@ -84,7 +81,7 @@ h2{
     padding-top: 10px;
 }
 
-h1, h2{
+h1, h2, h3{
     font-family: "Lato", sans-serif;
     margin: 0%;
 }
@@ -128,10 +125,9 @@ td{
     padding-bottom: 5px;
 }
 
-hr{
-    margin-top: -5px;
-}
-
 #last__table{
     padding-bottom: 70px;
 }
+
+/* mise en page du skillsection*/
+
