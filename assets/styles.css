@@ -201,6 +201,6 @@ ul li::marker {
 }
 
 /* hover sur les icônes des réseaux sociaux */
-#socials:hover {
+#socials i:hover {
     opacity: 70%;
 }
