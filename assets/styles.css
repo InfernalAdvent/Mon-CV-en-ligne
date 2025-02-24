@@ -89,7 +89,7 @@ h1, h2, h3{
 /*mise en page du mainsection*/
 
 #main__section{
-    width: 60%;
+    width: 700px;
     margin-top: 30px;
     margin-bottom: 50px;
     margin-right: 50px;
@@ -107,8 +107,12 @@ h3{
     text-align: justify;
 }
 
-.career{
-    text-align: start;
+.hover{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 5px;
 }
 
 strong{
@@ -120,18 +124,13 @@ em{
 }
 
 .dates{
-    text-align: end;
-    color: #17abb3;
+   color: #17abb3;
 }
 
-td{
-    width: 450px;
-    padding-top: 10px;
-    padding-bottom: 5px;
-}
-
-#last__table{
-    padding-bottom: 70px;
+.hover:hover{
+    background-color: #e3e3e3;
+    text-indent: 3px;
+    border-left: 4px solid #17abb3;
 }
 
 /* mise en page du skillsection*/
@@ -186,3 +185,7 @@ ul li::marker{
     margin-top: -25px;
     margin-bottom: 15px;
 }
+
+/* effets & hovers */
+
+
