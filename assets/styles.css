@@ -41,7 +41,11 @@ img{
     margin-left: 100px;
 }
 
-#picture{
+#picture__hover :hover{
+    cursor: zoom-in;
+}
+
+#picture__container{
     width: 360px;
     height: 230px;
     
@@ -127,7 +131,7 @@ em{
    color: #17abb3;
 }
 
-.hover:hover{
+.hover:hover{ 
     background-color: #e3e3e3;
     text-indent: 3px;
     border-left: 4px solid #17abb3;
@@ -186,6 +190,6 @@ ul li::marker{
     margin-bottom: 15px;
 }
 
-/* effets & hovers */
-
-
+#socials :hover{
+    opacity: 70%;
+}
