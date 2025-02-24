@@ -1,37 +1,39 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
-*{
+/* police par défaut */
+* {
     font-family: "Raleway", sans-serif;
 }
 
-body{
-    margin: 0px auto;
+body {
+    margin: 0 auto;
     background-color: #f3f3f3;
 }
 
-/*container du body*/
-#container{
+/* container principal */
+#container {
     width: 1160px;
     margin: auto;
     background-color: #ffffff;
 }
 
-/*container du main*/
-#main__container{
+
+#main__container {
     display: flex;
     width: 100%;
 }
 
-/* mise en page du header */
-header, .footer{
+
+header, .footer {
     display: flex;
     justify-content: center;
     background-color: #17abb3;
     color: #ffffff;
 }
 
-img{
+
+img {
     width: 145px;
     height: 145px;
     object-fit: cover;
@@ -41,148 +43,164 @@ img{
     margin-left: 100px;
 }
 
-#picture{
-    width: 360px;
-    height: 230px;
-    
+/* effet hover zoom-in sur l'image*/
+#picture__hover:hover {
+    cursor: zoom-in;
 }
 
-#header__title{
+/* container de la photo*/
+#picture__container {
+    width: 360px;
+    height: 230px;
+}
+
+
+#header__title {
     width: 800px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-
-a{
+/* liens du header */
+a {
     text-decoration: none;
     color: #ffffff;
 }
-#contact{
+
+
+#contact {
     list-style: none;
     text-align: left;
     display: grid;
     grid-template-columns: repeat(2, 120px);
     gap: 10px;
-    padding-top: 10px
-}
-
-i{
-    margin-right: 10px;
-}
-
-h1{
-    font-size:300%;
-    padding-top: 30px;
-}
-
-h2{
     padding-top: 10px;
 }
 
-h1, h2, h3{
-    font-family: "Lato", sans-serif;
-    margin: 0%;
+i {
+    margin-right: 10px;
 }
 
-/*mise en page du mainsection*/
+/* style des titres */
+h1 {
+    font-size: 300%;
+    padding-top: 30px;
+}
 
-#main__section{
-    width: 60%;
+h2 {
+    padding-top: 10px;
+}
+
+h1, h2, h3 {
+    font-family: "Lato", sans-serif;
+    margin: 0;
+}
+
+
+#main__section {
+    width: 700px;
     margin-top: 30px;
     margin-bottom: 50px;
     margin-right: 50px;
     margin-left: 50px;
 }
 
-h3{
-    color: #17abb3 ;
+h3 {
+    color: #17abb3;
     padding-top: 20px;
     font-size: larger;
 }
 
-#profile{
+#profile {
     text-indent: 3%;
     text-align: justify;
 }
 
-.career{
-    text-align: start;
+.hover {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 5px;
 }
 
-strong{
-    font-size: small;
+strong {
+    font-size: medium;
 }
 
-em{
+em {
     font-size: smaller;
 }
 
-.dates{
-    text-align: end;
+.dates {
     color: #17abb3;
 }
 
-td{
+/* effet hover sur les formations/stages/expérience pro */
+.hover:hover { 
+    background-color: #e3e3e3;
+    text-indent: 3px;
+    border-left: 4px solid #17abb3;
+}
+
+#skillsection__container {
+    background-color: #e3e3e3;
+    width: 360px;
+}
+
+#skillsection {
+    width: 260px;
+    height: 100%;
+    margin-top: 30px; 
+    margin-left: 50px;
+    padding-bottom: 30px;
+}
+
+/* mise en page des compétences & langues */
+td {
     width: 450px;
     padding-top: 10px;
     padding-bottom: 5px;
 }
 
-#last__table{
-    padding-bottom: 70px;
-}
-
-/* mise en page du skillsection*/
-
-#skillsection__container{
-    background-color: #e3e3e3;
-    width: 360px;
-}
-
-#skillsection{
-    width: 260px;
-    margin-top: 30px; 
-    margin-left: 50px;
-}
-
-.stars{
+.stars {
     color: #17abb3;
     font-size: small;
     text-align: right;
     word-spacing: -40px;
-    
 }
 
-th{
+th {
     text-align: left;
 }
 
-.lang{
+.lang {
     text-align: right;
 }
 
-.about__me{
-    list-style: square ;
-    
+.about__me {
+    list-style: square;
 }
 
-ul li::marker{
+ul li::marker {
     color: #17abb3;
     font-size: x-large;
-
 }
 
-/* mise en page du footer */
 
-.footer{
+.footer {
     padding-top: 25px;
     gap: 10px;
     font-size: larger;
 }
 
-#maj{
+#maj {
     margin-top: -25px;
     margin-bottom: 15px;
+}
+
+/* hover sur les icônes des réseaux sociaux */
+#socials i:hover {
+    opacity: 70%;
 }
